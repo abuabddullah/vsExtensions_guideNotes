@@ -1,0 +1,92 @@
+let studentName: string = "asif";
+let studentAge: number = 25;
+let isGoodStudent: boolean = true;
+
+
+let studentsNameArray: string[] = ["rahi1", "rahi2", "rahi3"];
+let studentsAgeArray: number[] = [10, 20, 30];
+
+
+/* // normal js 
+let singleStudentDetail = {
+    name: "asif",
+    age: 20,
+    isGood: true,
+}
+*/
+
+
+
+
+// tsx 
+let singleStudentDetail: { name: string, age: number, isGood: boolean } = {
+    name: "asif",
+    age: 20,
+    isGood: true,
+}
+
+
+// by using interface [interface must be declared with capital letter]
+interface AsifDetail {
+    name: string,
+    age: number,
+    isGood: boolean,
+    optionalKey?: string, // "?" is added if the key is optional for declaring
+    unionType: string | number, // "|" is used to declare union type which is used to declare multiple types
+    implecitAny: any, // "any" is used to stop type checking
+}
+
+let asifDetail: AsifDetail = {
+    name: "asif",
+    age: 20,
+    isGood: true,
+    unionType: "asif",
+    implecitAny: 'যেকোন type এর data দেয়া যাবে',
+}
+
+
+
+
+/* with parameter structure
+const ফাংশনের_নাম = (প্যারামিটার১ঃটাইপ,প্যারামিটার২টাইপ,প্যারামিটার৩টাইপ):voidঅথবা_রিটার্ন_টাইপ => {
+    console.log("typeScriptFuntion");
+}
+ */
+
+/* no parameter no return */
+const typeScriptFuntion = ():void => {
+    console.log("typeScriptFuntion");
+}
+
+/* func with param but no return */
+const typeScriptFuntionWithParams = (name: string,age:number):void => {
+    console.log("typeScriptFuntion");
+}
+
+/* func with param but return */
+const funtionWithParamsWithReturn = (name: string,age:number):number => {
+    return age;
+}
+
+
+/* react app */
+// const Counter = () => {
+//     const [count, setCount] = useState(0); // its implict type cause type is not defined rather automatically it will be number
+//     const [value, setValue] = useState<number>(0); // its explict type cause type is defined 
+//     return (
+//         <>
+//         <h1>{count}</h1>
+//         <button onclick={()=>{setCount(count+1)}}>increaseBYImplecitType</button>
+//         <button onclick={()=>{setValue(value+1)}}>decreaseBYExplecitType</button>
+//         </>
+//     )
+// }
+
+/* for typescrip useState hook initial value null should be ignorde or required interface+unionType module:78_5-4 range : 09:00 min and anisul sir : https://youtu.be/eHXQHU7hYW4?t=483 */
+/* type crisi for event param in onsubmit form :78_5-5 range : 02:00 min  need to use 
+
+e:FormEvent<HTMLFormElement> for onSubmit form
+e:ChangeEvent<HTMLInputElement> for onChange input
+
+*/
+/* props handleing related + eventFunction as props related */
