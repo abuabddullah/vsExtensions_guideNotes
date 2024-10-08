@@ -28,8 +28,9 @@
   // }
   ```
 
+### combo setting setup [mine+sumit vai] for **_workspace_**
 ```http
-// // combo setting setup [mine+sumit vai]
+
 {
 "emmet.triggerExpansionOnTab": true,
 "[html]": {
@@ -114,6 +115,39 @@
 }
 }
 ```
+### combo setting setup for **_user_**
+```http
+
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    }, 
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "files.autoSave": "onFocusChange",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 15,
+    "workbench.iconTheme": "vscode-icons"
+}
+```
 
 - **theme install** :
 
@@ -131,6 +165,8 @@
   7. **_ESLint_** by **_Microsoft_**
   8. **_ES7+ React/Redux/React-Native snippets_** by **_dsznajder_**
   9. **_Emoji Snippets_** by **_Devzstudio_**
+  10. **_Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more_** by **_codeium_**
+  11. **_Postman_** by **_Postman_**
 
 * **keyboard shortcut**:
 
