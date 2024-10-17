@@ -168,6 +168,7 @@
   10. **_Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more_** by **_codeium_**
   11. **_Postman_** by **_Postman_**
   12. **_Tailwind CSS IntelliSense_** by **_Tailwind Lab_**
+  13. **_npm Intellisense_** by **_Christian Kohler_**
 
 * **keyboard shortcut**:
 
