@@ -169,6 +169,9 @@
   11. **_Postman_** by **_Postman_**
   12. **_Tailwind CSS IntelliSense_** by **_Tailwind Lab_**
   13. **_npm Intellisense_** by **_Christian Kohler_**
+  14. **_Console Ninja_** by **_Wallaby.js_**
+  15. optionals
+  16. **_Path Intellisense_** by **_Christian Kohler_**
 
 * **keyboard shortcut**:
 
